@@ -7,8 +7,9 @@ layout: default
 modal-id: 1
 img: cabin.png
 alt: image-alt
+video: vMhAX3AjnEI
 project-date: April 2014
 client: Start Bootstrap
-description:  Test test <iframe width="560" height="315" src="https://www.youtube.com/embed/vMhAX3AjnEI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+description:  Pitched, wrote and produced. Over a million views across Facebook and Youtube
 ---
 
