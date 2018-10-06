@@ -17,7 +17,13 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            
+                            {% if post.video %}
+                                <img src="thumbnails/{{ post.video }}.jpg" class="img-responsive" alt="{{ post.alt }}">
+                            {% elsif post.img %}
+                                <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            {% endif %}
+                            
                         </a>
                     </div>
                 {% endfor %}
