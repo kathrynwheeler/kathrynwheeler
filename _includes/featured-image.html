@@ -1,0 +1,5 @@
+ {% elsif post.video %}
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ {{ post.video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ {% elsif post.featured_image %}
+  <img class="img-responsive" src="{{ post.featured_image }}" title="{{ post.title }}">
+  {% endif %}
