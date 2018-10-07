@@ -8,6 +8,7 @@ modal-id: 1
 img: cabin.png
 alt: image-alt
 video: vMhAX3AjnEI
+thumbnail: vMhAX3AjnEI.png
 project-date: April 2014
 client: Start Bootstrap
 description:  Pitched, wrote and produced. Over a million views across Facebook and Youtube
